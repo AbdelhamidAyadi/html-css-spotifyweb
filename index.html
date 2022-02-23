@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Spotify</title>
 </head>
 <body>
@@ -37,6 +38,7 @@
 
             </div>
             <div class="main-content">
+               <div>
                 <h2>Recently played</h2>
                 <ul>
                     <li>
@@ -95,14 +97,104 @@
                         </div>
                     </li>
                 </ul>
+               </div>
+               <div>
+                   <div class="title">
+                    <h2>Creato per John Doe</h2>
+                    <p>Più ascolti, piu accurati saranno i suggerimenti.</p>
+                   </div>
+                   <ul>
+                       <li>
+                        <div>
+                            <img src="./asset/img/radar.jpeg" alt="">
+                        </div>
+                        <div class="song-title">
+                            <h3>Release Radar</h3>
+                        </div>
+                       </li>
+                       <li>
+                        <div>
+                            <img src="./asset/img/mixdaily.jpeg" alt="">
+                        </div>
+                        <div class="song-title">
+                            <h3>Sinister</h3>
+                            <p>Subtitle</p>
+                        </div>
+                       </li>
+                   </ul>
+               </div>
+               <div>
+                <div class="title">
+                 <h2>Artisti più popolari</h2>
+                 <p>Più ascolti, piu accurati saranno i suggerimenti.</p>
+                </div>
+                <ul>
+                    <li>
+                     <div class="artist-picture">
+                         <img src="./asset/img/youg.jpeg" alt="">
+                     </div>
+                     <div class="song-title">
+                         <h3>Lana del Rey</h3>
+                     </div>
+                    </li>
+                    <li>
+                     <div class="artist-picture">
+                         <img src="./asset/img/einaudi.jpeg" alt="">
+                     </div>
+                     <div class="song-title">
+                         <h3>Ludovico Einaudi</h3>
+
+                     </div>
+                    </li>
+                </ul>
+            </div>
 
             </div>
 
         </div>
     </div>
     <div class="player">
+        <div class="player-left">
+            <div class="player-left-image">
+                <img src="./asset/img/sinister.jpeg" alt="">
+            </div>
+            <div class="player-song-title">
+                <h4>Sinister</h4>
+                <p>Brano Nome</p>
+            </div>
+            <div class="player-left-icons">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-folder"></i>
+            </div>
+        </div>
+        <div class="player-center">
+            <div class="player-center-icons">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-regular fa-circle-play"></i>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-rotate-right"></i>
+
+            </div>
+            <div class="seek-bar" >
+                <span>0:25</span>
+                <div class="seek-bar-father">
+                    <div class="seek-bar-son"></div>
+                </div>
+                <span>4:35</span>
+
+            </div>
+        </div>
+        <div class="player-right">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-tv"></i>
+            <i class="fa-solid fa-volume-high"></i>
+            <div class="sound-bar-father">
+                <div class="sound-bar-son"></div>
+            </div>
+        </div>
 
     </div>
     
 </body>
-</html>
+</html>     
